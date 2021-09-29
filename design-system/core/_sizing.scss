@@ -2,7 +2,7 @@
 
 @mixin sizes-map() {
   @each $name, $size in $sizes {
-    .g-size-#{$name} {
+    .m-size-#{$name} {
       width: $size;
     }
   }

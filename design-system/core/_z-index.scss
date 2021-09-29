@@ -2,7 +2,7 @@
 
 @mixin z-indexs-map() {
   @each $name, $size in $z-indexs {
-    .g-zindex-#{$name} {
+    .m-zindex-#{$name} {
       width: var(--zindex-#{$name});
     }
   }

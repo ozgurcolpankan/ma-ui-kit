@@ -2,7 +2,7 @@
 
 @mixin font-size-map() {
   @each $name in $font-size {
-    .g-fs-#{$name} {
+    .m-fs-#{$name} {
       font-size: #{$name}px;
     }
   }
